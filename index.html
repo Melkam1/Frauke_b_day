@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Birthday Gift</title>
+  <style>
+    body {
+      display: flex;
+      height: 100vh;
+      justify-content: center;
+      align-items: center;
+      background: #ffe6f0;
+      font-family: sans-serif;
+    }
+
+    button {
+      padding: 15px 30px;
+      font-size: 18px;
+      border: none;
+      border-radius: 10px;
+      background-color: #ff66b2;
+      color: white;
+      cursor: pointer;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+
+    button:hover {
+      background-color: #ff3385;
+    }
+  </style>
+</head>
+<body style="display: flex; flex-direction: column;">
+    <div style="width: 60%; height: auto; display: flex; flex-wrap: wrap';">
+        <h1> 🎉🎉🎉🎉🎂🥳 Happy birthday Frauki, I wish you so many long years of health, hapiness, 
+            wealth and Fun to celebrate!🎂🥳🎂🥳</h1>
+    </div>
+
+  <button onclick="openGift()">🎉 Happy Birthday Fraukii! 🎉</button>
+
+  <script>
+    function openGift() {
+    const giftUrl = "./voucher_Soulhouse_Frauke.pdf";
+      window.open(giftUrl, "_blank");
+    }
+  </script>
+
+</body>
+</html>
